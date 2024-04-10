@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_inicio">
+
+    <fragment
+        android:id="@+id/navigation_inicio"
+        android:name="com.example.porkybank.ui.home.HomeFragment"
+        android:label="@string/title_inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/navigation_pagos"
+        android:name="com.example.porkybank.ui.dashboard.DashboardFragment"
+        android:label="@string/title_pagos"
+        tools:layout="@layout/fragment_pagos" />
+
+    <fragment
+        android:id="@+id/navigation_productos"
+        android:name="com.example.porkybank.ui.notifications.NotificationsFragment"
+        android:label="@string/title_productos"
+        tools:layout="@layout/fragment_productos" />
+</navigation>

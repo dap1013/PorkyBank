@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PorkyBank</string>
+    <string name="title_productos">Productos</string>
+    <string name="title_inicio">Inicio</string>
+    <string name="title_pagos">Pagos</string>
+</resources>
