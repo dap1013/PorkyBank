@@ -3,4 +3,19 @@
     <string name="title_productos">Productos</string>
     <string name="title_inicio">Inicio</string>
     <string name="title_pagos">Pagos</string>
+    <string name="title_activity_login_main">LoginMainActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="logo_app">Logo PorkyBank</string>
+    <string name="username_login">Usuario:</string>
+    <string name="password_login">Contraseña:</string>
+    <string name="cant_access_login"><u>¿No puedes acceder?</u></string>
+    <string name="face_access_text"><u>Accede mostrando tu cara</u></string>
+    <string name="face_access_logo_content">face access logo</string>
 </resources>
