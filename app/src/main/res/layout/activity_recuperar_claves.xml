@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.login.recuperarClaves">
+
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/recupera_claves_titulo_header"/>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center|end"
+            android:clickable="true"
+            android:contentDescription="@string/img_desc_equis"
+            android:onClick="clickEquis"
+            app:srcCompat="@drawable/equis"
+            tools:ignore="TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="356dp"
+            tools:layout_editor_absoluteY="7dp" />
+
+    </Toolbar>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="@string/recupera_claves_titulo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <FrameLayout
+        android:layout_width="340dp"
+        android:layout_height="80dp"
+        android:background="@drawable/custom_border"
+        android:clickable="true"
+        android:onClick="clickDni"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.259">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="80dp"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:text="@string/recupera_claves_DNI" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|start"
+            app:srcCompat="@drawable/tarjeta_identificacion"
+            android:contentDescription="@string/recupera_claves_img_desc_dni" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="10dp"
+            android:contentDescription="@string/flecha"
+            app:srcCompat="@drawable/flecha"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="340dp"
+        android:layout_height="80dp"
+        android:clickable="true"
+        android:onClick="clickEmail"
+        android:background="@drawable/custom_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="80dp"
+            android:text="@string/recupera_claves_Email"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|start"
+            android:contentDescription="@string/recupera_claves_img_desc_email"
+            app:srcCompat="@drawable/sobre" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="10dp"
+            android:contentDescription="@string/flecha"
+            app:srcCompat="@drawable/flecha" />
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

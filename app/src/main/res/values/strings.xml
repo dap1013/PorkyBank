@@ -18,4 +18,24 @@
     <string name="cant_access_login"><u>¿No puedes acceder?</u></string>
     <string name="face_access_text"><u>Accede mostrando tu cara</u></string>
     <string name="face_access_logo_content">face access logo</string>
+    <string name="recupera_claves_titulo">¿Con qué usuario quieres acceder?</string>
+    <string name="recupera_claves_DNI">DNI</string>
+    <string name="recupera_claves_Email">Email</string>
+    <string name="recupera_claves_img_desc_dni">Imagen DNI</string>
+    <string name="recupera_claves_img_desc_email">Imagen Email</string>
+    <string name="flecha">Imagen de flecha</string>
+    <string name="recupera_claves_titulo_header">Recuperar claves</string>
+    <string name="img_desc_equis">Imagen equis</string>
+    <string name="recupera_email_titulo">Introduce la dirección de correo con la que estás registrado en PorkyBank</string>
+    <string name="continuar">Continuar</string>
+    <string name="recuperar_dni_campo1">¿Con qué documento te vas a identificar?</string>
+    <string name="recuperar_dni_hint_editText_documento">NIE o NIF/DNI completo con números y letras</string>
+    <string name="recuperar_dni_campo2">Introduce los 6 últimos dígitos de tu tarjeta</string>
+    <string name="recupera_dni_digitos">6 último dígitos</string>
+    <string-array name="documents_tipes">
+        <item>Tipo de documento</item>
+        <item>DNI</item>
+        <item>NIE</item>
+        <item>TIE</item>
+    </string-array>
 </resources>

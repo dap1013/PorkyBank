@@ -5,11 +5,13 @@ import android.app.Activity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.navigation.Navigation;
 
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -130,5 +132,14 @@ public class LoginActivity extends AppCompatActivity {
 
     private void showLoginFailed(@StringRes Integer errorString) {
         Toast.makeText(getApplicationContext(), errorString, Toast.LENGTH_SHORT).show();
+    }
+
+    public void clickTextView5(View view){
+        Intent siguiente = new Intent(this, recuperarClaves.class);
+        startActivity(siguiente);
+    }
+
+    public void clickTextView6(View view){
+
     }
 }

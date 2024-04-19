@@ -121,7 +121,7 @@
             android:layout_marginTop="220dp"
             android:layout_marginBottom="0dp"
             android:backgroundTint="@color/button_color"
-            android:enabled="false"
+            android:enabled="true"
             android:text="@string/action_sign_in"
             android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -139,7 +139,9 @@
             android:text="@string/cant_access_login"
             android:textColor="@color/black"
             android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:clickable="true"
+            android:onClick="clickTextView5"/>
 
     </FrameLayout>
 
@@ -153,6 +155,8 @@
         android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="bold"
+        android:clickable="true"
+        android:onClick="clickTextView6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.715"
