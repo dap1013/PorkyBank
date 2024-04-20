@@ -6,40 +6,70 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="343dp"
+        android:layout_height="299dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="292dp"
+        android:background="@drawable/custom_border"
+        android:elevation="2dp"
+        android:foreground="@drawable/Pag_principal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextSizeCheck">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/txt_resumen_cuenta"
+        android:layout_width="35dp"
+        android:layout_height="23dp"
+        android:text=" Inicio"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="696dp" />
+
     <TextView
         android:id="@+id/txt_resumen_cuenta"
         android:layout_width="160dp"
-        android:layout_height="27dp"
+        android:layout_height="23dp"
         android:text="Resumen de la cuenta"
-        android:textSize="14sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintHorizontal_bias="0.135"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.105" />
+        app:layout_constraintVertical_bias="0.165" />
 
     <ImageView
         android:id="@+id/imgVw_notificaciones"
         android:layout_width="55dp"
         android:layout_height="38dp"
-        android:layout_marginTop="13dp"
+        android:layout_marginTop="16dp"
         android:src="@drawable/ic_sobre_black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.783"
+        app:layout_constraintHorizontal_bias="0.811"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imgVw_config"
         android:layout_width="30dp"
-        android:layout_height="118dp"
-        android:layout_marginBottom="640dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:src="@drawable/ic_config_black"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.958"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/txt_buenasTardes"
@@ -52,5 +82,73 @@
         app:layout_constraintHorizontal_bias="0.097"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022" />
+        app:layout_constraintVertical_bias="0.038" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="290dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/Tarjeta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/house"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="661dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarjeta"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="489dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/pay"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="662dp" />
+
+    <TextView
+        android:id="@+id/txt_pagos"
+        android:layout_width="35dp"
+        android:layout_height="23dp"
+        android:text="Pagos"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="696dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/productos"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="661dp" />
+
+    <TextView
+        android:id="@+id/txt_productos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="31dp"
+        android:text="Productos"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
