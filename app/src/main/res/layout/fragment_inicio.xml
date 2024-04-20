@@ -98,7 +98,7 @@
             tools:layout_editor_absoluteY="661dp" />
 
         <ImageView
-            android:id="@+id/imageView18"
+            android:id="@+id/pay"
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:src="@drawable/pay"
@@ -249,7 +249,7 @@
         tools:layout_editor_absoluteY="489dp" />
 
     <ImageView
-        android:id="@+id/imageView18"
+        android:id="@+id/pay"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:src="@drawable/pay"
