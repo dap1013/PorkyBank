@@ -40,7 +40,7 @@
                 android:text="06 ene"
                 android:textSize="10sp"
                 tools:layout_editor_absoluteX="99dp"
-                tools:layout_editor_absoluteY="506dp" />
+                tools:layout_editor_absoluteY="495dp" />
 
             <TextView
                 android:id="@+id/textView20"
@@ -49,7 +49,7 @@
                 android:text="17 mar"
                 android:textSize="10sp"
                 tools:layout_editor_absoluteX="99dp"
-                tools:layout_editor_absoluteY="460dp" />
+                tools:layout_editor_absoluteY="449dp" />
 
             <TextView
                 android:id="@+id/textView20"
@@ -58,7 +58,7 @@
                 android:text="17 mar"
                 android:textSize="10sp"
                 tools:layout_editor_absoluteX="99dp"
-                tools:layout_editor_absoluteY="412dp" />
+                tools:layout_editor_absoluteY="401dp" />
 
             <TextView
                 android:id="@+id/textView20"
@@ -67,7 +67,7 @@
                 android:text="26 feb"
                 android:textSize="10sp"
                 tools:layout_editor_absoluteX="99dp"
-                tools:layout_editor_absoluteY="369dp" />
+                tools:layout_editor_absoluteY="358dp" />
 
             <TextView
                 android:id="@+id/textView20"
@@ -76,7 +76,7 @@
                 android:text="02 mar"
                 android:textSize="10sp"
                 tools:layout_editor_absoluteX="99dp"
-                tools:layout_editor_absoluteY="323dp" />
+                tools:layout_editor_absoluteY="313dp" />
 
             <TextView
                 android:id="@+id/textView20"
@@ -125,7 +125,7 @@
                 android:text="04 mar"
                 android:textSize="10sp"
                 tools:layout_editor_absoluteX="99dp"
-                tools:layout_editor_absoluteY="278dp" />
+                tools:layout_editor_absoluteY="267dp" />
 
             <TextView
                 android:id="@+id/textView20"
@@ -141,7 +141,7 @@
                 android:layout_height="wrap_content"
                 android:text="Bizum recibido"
                 tools:layout_editor_absoluteX="99dp"
-                tools:layout_editor_absoluteY="487dp" />
+                tools:layout_editor_absoluteY="476dp" />
 
             <ImageView
                 android:id="@+id/imageView14"
@@ -176,7 +176,7 @@
                 android:layout_height="wrap_content"
                 android:text="Mercadona S.P"
                 tools:layout_editor_absoluteX="99dp"
-                tools:layout_editor_absoluteY="441dp" />
+                tools:layout_editor_absoluteY="430dp" />
 
             <ImageView
                 android:id="@+id/imageView14"
@@ -345,7 +345,7 @@
                 android:layout_height="wrap_content"
                 android:text="Zara"
                 tools:layout_editor_absoluteX="99dp"
-                tools:layout_editor_absoluteY="350dp" />
+                tools:layout_editor_absoluteY="338dp" />
 
             <TextView
                 android:id="@+id/textView20"
@@ -353,25 +353,25 @@
                 android:layout_height="wrap_content"
                 android:text="BASIC FIT SPAIN"
                 tools:layout_editor_absoluteX="99dp"
-                tools:layout_editor_absoluteY="393dp" />
+                tools:layout_editor_absoluteY="382dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bizum recibido"
+                tools:layout_editor_absoluteX="98dp"
+                tools:layout_editor_absoluteY="248dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carrefour S.L"
+                tools:layout_editor_absoluteX="98dp"
+                tools:layout_editor_absoluteY="294dp" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Carrefour S.L"
-            tools:layout_editor_absoluteX="98dp"
-            tools:layout_editor_absoluteY="304dp" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Bizum recibido"
-            tools:layout_editor_absoluteX="98dp"
-            tools:layout_editor_absoluteY="259dp" />
 
         <ImageView
             android:id="@+id/imageView14"
