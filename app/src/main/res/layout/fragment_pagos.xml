@@ -13,23 +13,373 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:context=".ui.dashboard.DashboardFragment">
 
-        <ImageView
-            android:id="@+id/imageView14"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:rotation="360"
-            android:src="@drawable/flecha"
-            tools:layout_editor_absoluteX="51dp"
-            tools:layout_editor_absoluteY="430dp" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:context=".ui.dashboard.DashboardFragment"
+            tools:layout_editor_absoluteY="0dp">
 
-        <ImageView
-            android:id="@+id/imageView14"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:rotation="360"
-            android:src="@drawable/flecha"
-            tools:layout_editor_absoluteX="51dp"
-            tools:layout_editor_absoluteY="382dp" />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="76dp"
+                android:layout_height="66dp"
+                android:layout_marginTop="8dp"
+                android:contentDescription="@string/logo_app"
+                android:src="@drawable/ic_logo_porkybank"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="35dp"
+                android:layout_height="15dp"
+                android:text="06 ene"
+                android:textSize="10sp"
+                tools:layout_editor_absoluteX="99dp"
+                tools:layout_editor_absoluteY="506dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="35dp"
+                android:layout_height="15dp"
+                android:text="17 mar"
+                android:textSize="10sp"
+                tools:layout_editor_absoluteX="99dp"
+                tools:layout_editor_absoluteY="460dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="35dp"
+                android:layout_height="15dp"
+                android:text="17 mar"
+                android:textSize="10sp"
+                tools:layout_editor_absoluteX="99dp"
+                tools:layout_editor_absoluteY="412dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="35dp"
+                android:layout_height="15dp"
+                android:text="26 feb"
+                android:textSize="10sp"
+                tools:layout_editor_absoluteX="99dp"
+                tools:layout_editor_absoluteY="369dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="35dp"
+                android:layout_height="15dp"
+                android:text="02 mar"
+                android:textSize="10sp"
+                tools:layout_editor_absoluteX="99dp"
+                tools:layout_editor_absoluteY="323dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+ 77,00€"
+                tools:layout_editor_absoluteX="288dp"
+                tools:layout_editor_absoluteY="487dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 13,65€"
+                tools:layout_editor_absoluteX="288dp"
+                tools:layout_editor_absoluteY="441dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 19,99€"
+                tools:layout_editor_absoluteX="288dp"
+                tools:layout_editor_absoluteY="393dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 23,95€"
+                tools:layout_editor_absoluteX="288dp"
+                tools:layout_editor_absoluteY="349dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+ 5,60€"
+                tools:layout_editor_absoluteX="288dp"
+                tools:layout_editor_absoluteY="259dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="35dp"
+                android:layout_height="15dp"
+                android:text="04 mar"
+                android:textSize="10sp"
+                tools:layout_editor_absoluteX="99dp"
+                tools:layout_editor_absoluteY="278dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 56,25€"
+                tools:layout_editor_absoluteX="288dp"
+                tools:layout_editor_absoluteY="304dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bizum recibido"
+                tools:layout_editor_absoluteX="99dp"
+                tools:layout_editor_absoluteY="487dp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:rotation="180"
+                android:src="@drawable/flecha"
+                tools:layout_editor_absoluteX="51dp"
+                tools:layout_editor_absoluteY="430dp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:rotation="180"
+                android:src="@drawable/flecha"
+                tools:layout_editor_absoluteX="51dp"
+                tools:layout_editor_absoluteY="382dp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:rotation="360"
+                android:src="@drawable/flecha"
+                tools:layout_editor_absoluteX="51dp"
+                tools:layout_editor_absoluteY="476dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mercadona S.P"
+                tools:layout_editor_absoluteX="99dp"
+                tools:layout_editor_absoluteY="441dp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:rotation="180"
+                android:src="@drawable/flecha"
+                tools:layout_editor_absoluteX="51dp"
+                tools:layout_editor_absoluteY="338dp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:rotation="180"
+                android:src="@drawable/flecha"
+                tools:layout_editor_absoluteX="51dp"
+                tools:layout_editor_absoluteY="293dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tus últimos movimientos"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="195dp" />
+
+            <TextView
+                android:id="@+id/txt_porkybank"
+                android:layout_width="130dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="132dp"
+                android:text="265,93€"
+                android:textColor="#716E6E"
+                android:textSize="34sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="127dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="128dp"
+                android:layout_marginBottom="546dp"
+                android:text="Cuenta PorkyBank *7439"
+                app:layout_constraintBottom_toTopOf="@+id/imageView12"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_porkybank" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="119dp"
+                android:layout_marginTop="586dp"
+                android:layout_marginEnd="113dp"
+                android:contentDescription="casa_inicio_imagen"
+                android:src="@drawable/house"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/txt_resumen_cuenta"
+                app:layout_constraintEnd_toStartOf="@+id/imageView19"
+                app:layout_constraintStart_toEndOf="@+id/pay"
+                app:layout_constraintTop_toBottomOf="@+id/txt_porkybank" />
+
+            <TextView
+                android:id="@+id/txt_resumen_cuenta"
+                android:layout_width="35dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="118dp"
+                android:layout_marginEnd="102dp"
+                android:layout_marginBottom="12dp"
+                android:text=" Inicio"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/txt_productos"
+                app:layout_constraintStart_toEndOf="@+id/txt_pagos"
+                app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="661dp"
+                android:layout_marginEnd="40dp"
+                android:contentDescription="productos_imagen"
+                android:src="@drawable/productos"
+                app:layout_constraintBottom_toTopOf="@+id/txt_productos"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_productos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="31dp"
+                android:text="Productos"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView19" />
+
+            <ImageView
+                android:id="@+id/pay"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="662dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/pay"
+                app:layout_constraintBottom_toTopOf="@+id/txt_pagos"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_pagos"
+                android:layout_width="35dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="34dp"
+                android:text="Pagos"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pay" />
+
+            <TextView
+                android:id="@+id/txt_porkybank"
+                android:layout_width="170dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="121dp"
+                android:layout_marginBottom="656dp"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="TextSizeCheck" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rotation="180"
+                android:src="@drawable/flecha"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="51dp"
+                android:layout_marginEnd="330dp"
+                android:rotation="360"
+                android:src="@drawable/flecha"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="248dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zara"
+                tools:layout_editor_absoluteX="99dp"
+                tools:layout_editor_absoluteY="350dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BASIC FIT SPAIN"
+                tools:layout_editor_absoluteX="99dp"
+                tools:layout_editor_absoluteY="393dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carrefour S.L"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="304dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bizum recibido"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="259dp" />
 
         <ImageView
             android:id="@+id/imageView14"
