@@ -19,6 +19,7 @@ public class message_recuperacion_dni_email extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_message_recuperacion_dni_email);
+        setTextView();
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -26,7 +27,8 @@ public class message_recuperacion_dni_email extends AppCompatActivity {
         });
     }
 
-    private void setTextView(String text){
+    private void setTextView(){
+        String text = getIntent().getStringExtra("titulo");
         TextView textView = findViewById(R.id.textView1);
         textView.setText(text);
     }

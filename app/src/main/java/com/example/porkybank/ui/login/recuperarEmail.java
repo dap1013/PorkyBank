@@ -32,6 +32,7 @@ public class recuperarEmail extends AppCompatActivity {
 
     public void clickButton(View view){
         Intent siguiente = new Intent(this, message_recuperacion_dni_email.class);
+        siguiente.putExtra("titulo", "Te hemos enviado un email al correo proporcionado con las instrucciones para poder recuperar la contraseña.");
         startActivity(siguiente);
     }
 }
