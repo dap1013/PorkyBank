@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import android.view.View;
 
 public class config_porkybank extends AppCompatActivity {
 
@@ -20,5 +21,29 @@ public class config_porkybank extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void clickTransacciones(View view){
+
+    }
+
+    public void clickBizum(View view){
+
+    }
+
+    public void clickPrestamo(View view){
+
+    }
+
+    public void clickCajeroOficina(View view){
+
+    }
+
+    public void clickCerrarSesion(View view){
+
+    }
+
+    public void clickVolver(View view){
+
     }
 }

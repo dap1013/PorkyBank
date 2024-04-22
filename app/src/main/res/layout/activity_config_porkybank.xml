@@ -14,159 +14,240 @@
         tools:layout_editor_absoluteX="50dp"
         tools:layout_editor_absoluteY="115dp">
 
-        <TextView
-            android:id="@+id/txt_buenasTardes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Transacciones"
-            android:textColor="#000000"
-            android:textSize="20sp"
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:onClick="clickTransacciones"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.325"
+            app:layout_constraintHorizontal_bias="0.243"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.254" />
+            app:layout_constraintVertical_bias="0.228">
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="5dp"
+                app:srcCompat="@drawable/transacion_config"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="166dp"
+                android:contentDescription="@string/logo_transacciones" />
+
+            <TextView
+                android:id="@+id/txt_transacciones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="60dp"
+                android:text="@string/transacciones"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.325"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.254" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:onClick="clickBizum"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.243"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.35">
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="5dp"
+                app:srcCompat="@drawable/bizum_sin_transparecia"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="246dp"
+                android:contentDescription="@string/logo_bizum" />
+
+            <TextView
+                android:id="@+id/txt_bizum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="60dp"
+                android:text="@string/bizum"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.256"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.367" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:onClick="clickPrestamo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.243"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.485">
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="5dp"
+                app:srcCompat="@drawable/prestamo"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="326dp"
+                android:contentDescription="@string/logo_prestamo" />
+
+            <TextView
+                android:id="@+id/txt_prestamo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="60dp"
+                android:text="@string/contratar_prestamo"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.385"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.481" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:onClick="clickCajeroOficina"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.243"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.605">
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="5dp"
+                app:srcCompat="@drawable/cajero"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="406dp"
+                android:contentDescription="@string/logo_cajero" />
+
+            <TextView
+                android:id="@+id/txt_oficinas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="60dp"
+                android:text="@string/oficinas_y_cajeros"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.359"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.595" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:onClick="clickCerrarSesion"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.243"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.976">
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="5dp"
+                app:srcCompat="@drawable/logout"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="663dp"
+                android:contentDescription="@string/logo_cerrar_sesion" />
+
+            <TextView
+                android:id="@+id/txt_cerrarsesion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="60dp"
+                android:text="@string/cerrar_sesi_n"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.312"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.96" />
+        </FrameLayout>
 
         <TextView
             android:id="@+id/txt_buenasTardes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Bizum"
-            android:textColor="#000000"
+            android:text="@string/nombre_usuario_completo"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.256"
+            app:layout_constraintHorizontal_bias="0.56"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.367" />
-
-        <TextView
-            android:id="@+id/txt_buenasTardes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Contratar préstamo"
-            android:textColor="#000000"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.385"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.481" />
-
-        <TextView
-            android:id="@+id/txt_buenasTardes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Oficinas y cajeros"
-            android:textColor="#000000"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.359"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.595" />
-
-        <TextView
-            android:id="@+id/txt_buenasTardes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Cerrar Sesión"
-            android:textColor="#000000"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.312"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.96" />
+            app:layout_constraintVertical_bias="0.056" />
 
         <ImageView
-            android:id="@+id/imageView14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:rotation="180"
-            android:src="@drawable/flecha"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="16dp" />
-
-        <TextView
-            android:id="@+id/txt_buenasTardes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="CARLOS PEREZ MARTIN"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.607"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.115" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="66dp"
-            android:layout_height="56dp"
-            android:layout_marginTop="64dp"
-            android:contentDescription="@string/logo_app"
-            android:src="@drawable/ic_logo_porkybank"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.144"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
-            android:id="@+id/imgVw_config"
-            android:layout_width="30dp"
-            android:layout_height="38dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:src="@drawable/ic_config_black"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
-            android:id="@+id/imageView15"
+            android:id="@+id/imageView23"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            app:srcCompat="@drawable/transacion_config"
-            tools:layout_editor_absoluteX="32dp"
-            tools:layout_editor_absoluteY="166dp" />
+            android:clickable="true"
+            android:onClick="clickVolver"
+            android:contentDescription="@string/fecha_atras"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.072"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.039"
+            app:srcCompat="@drawable/flecha2" />
 
-        <ImageView
-            android:id="@+id/imageView16"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            app:srcCompat="@drawable/bizum_sin_transparecia"
-            tools:layout_editor_absoluteX="32dp"
-            tools:layout_editor_absoluteY="246dp" />
-
-        <ImageView
-            android:id="@+id/imageView17"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            app:srcCompat="@drawable/prestamo"
-            tools:layout_editor_absoluteX="32dp"
-            tools:layout_editor_absoluteY="326dp" />
-
-        <ImageView
-            android:id="@+id/imageView18"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            app:srcCompat="@drawable/cajero"
-            tools:layout_editor_absoluteX="32dp"
-            tools:layout_editor_absoluteY="406dp" />
-
-        <ImageView
-            android:id="@+id/imageView21"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            app:srcCompat="@drawable/logout"
-            tools:layout_editor_absoluteX="32dp"
-            tools:layout_editor_absoluteY="663dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,45 +3,130 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    >
 
-    <CheckedTextView
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:rotationY="180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041"
+        app:srcCompat="@drawable/flecha"
+        android:contentDescription="@string/flecha" />
+
+    <TextView
         android:id="@+id/checkedTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="145dp"
-        android:layout_marginTop="28dp"
         android:layout_marginEnd="144dp"
         android:layout_marginBottom="38dp"
-        android:text="PorkyBank"
-        android:textSize="26dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
 
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="22dp"
-        android:layout_marginEnd="199dp"
-        android:text="Pídela 100% online"
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
-        tools:layout_editor_absoluteY="480dp" />
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57">
 
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="21dp"
-        android:layout_marginEnd="74dp"
-        android:layout_marginBottom="25dp"
-        android:text="Financia hasta el 80% de tu nueva casa"
-        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="42dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/plus"
+            tools:layout_editor_absoluteY="404dp"
+            android:contentDescription="@string/logo_mas"/>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="60dp"
+            android:text="@string/hipoteca_dato1" />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView6" />
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.658">
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="42dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/plus"
+            tools:layout_editor_absoluteY="404dp"
+            android:contentDescription="@string/logo_mas" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="60dp"
+            android:text="@string/hipoteca_dato2" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.748">
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="42dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/plus"
+            tools:layout_editor_absoluteY="404dp"
+            android:contentDescription="@string/logo_mas"/>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="60dp"
+            android:text="@string/hipoteca_dato3" />
+    </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
@@ -54,95 +139,45 @@
         app:menu="@menu/bottom_nav_menu" />
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="42dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="36dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/plus"
-        tools:layout_editor_absoluteY="404dp" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="42dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="31dp"
-        android:layout_marginEnd="17dp"
-        app:layout_constraintEnd_toStartOf="@+id/textView14"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/plus"
-        tools:layout_editor_absoluteY="468dp" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="42dp"
-        android:layout_height="50dp"
-        app:srcCompat="@drawable/plus"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="533dp" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="16dp"
-        android:rotationY="180"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/flecha" />
-
-    <ImageView
         android:id="@+id/imageView9"
         android:layout_width="246dp"
         android:layout_height="237dp"
         android:layout_marginStart="82dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="104dp"
         android:layout_marginEnd="83dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkedTextView"
-        app:srcCompat="@drawable/hipoteca" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hipoteca"
+        android:contentDescription="@string/imagen_hipoteca"/>
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="170dp"
-        android:layout_marginTop="19dp"
         android:layout_marginEnd="162dp"
         android:layout_marginBottom="43dp"
-        android:text="Hipoteca fija"
-        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        android:text="@string/hipoteca_dato5"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532" />
 
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="21dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="40dp"
-        android:text="No bonificada (TIN: 3,85% y TAE: 4,336%)"
-        app:layout_constraintBottom_toTopOf="@+id/textView14"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView6" />
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="328dp"
-        android:layout_height="69dp"
-        android:layout_marginStart="54dp"
-        android:layout_marginTop="14dp"
-        android:layout_marginEnd="29dp"
-        android:layout_marginBottom="9dp"
-        android:text="La TAE bonificada es el índice que nos va a indicar mejor lo que pagaremos por la hipoteca bonificada. Comparando la TAE y la TAE bonificadas de una misma hipoteca, podemos valorar si las bonificaciones que nos ofrece el banco realmente nos interesan o no. la TAE bonificada es el índice que nos va a indicar mejor lo que pagaremos por la hipoteca bonificada. Comparando la TAE y la TAE bonificadas de una misma hipoteca, podemos valorar si las bonificaciones que nos ofrece el banco realmente nos interesan o no."
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:text="@string/hipoteca_dato4"
+        android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/nav_view"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
 </androidx.constraintlayout.widget.ConstraintLayout>

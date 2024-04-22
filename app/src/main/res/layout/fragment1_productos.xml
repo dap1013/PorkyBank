@@ -13,12 +13,13 @@
         android:layout_marginTop="28dp"
         android:layout_marginEnd="144dp"
         android:layout_marginBottom="38dp"
-        android:text="PorkyBank"
-        android:textSize="26dp"
+        android:text="@string/app_name"
+        android:textSize="26sp"
         app:layout_constraintBottom_toTopOf="@+id/textView12"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnknownIdInLayout" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
@@ -34,12 +35,16 @@
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
         android:text="Catálogo de productos"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="79dp"
         android:textColor="@color/black"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -68,11 +73,12 @@
         android:id="@+id/imageButton4"
         android:layout_width="402dp"
         android:layout_height="135dp"
+        android:layout_marginStart="4dp"
         android:layout_marginTop="10dp"
         app:layout_constraintBottom_toTopOf="@+id/imageButton5"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton3"
-        app:srcCompat="@drawable/foto10"
-        tools:layout_editor_absoluteX="5dp" />
+        app:srcCompat="@drawable/foto10" />
 
     <ImageButton
         android:id="@+id/imageButton5"
