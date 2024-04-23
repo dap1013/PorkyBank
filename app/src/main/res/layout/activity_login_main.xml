@@ -122,6 +122,7 @@
             android:layout_marginBottom="0dp"
             android:backgroundTint="@color/button_color"
             android:enabled="true"
+            android:onClick="iniciarSesion"
             android:text="@string/action_sign_in"
             android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"

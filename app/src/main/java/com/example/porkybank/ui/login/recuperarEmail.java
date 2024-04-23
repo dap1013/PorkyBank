@@ -27,7 +27,7 @@ public class recuperarEmail extends AppCompatActivity {
     }
 
     public void clickEquis(View view){
-
+        finish();
     }
 
     public void clickButton(View view){

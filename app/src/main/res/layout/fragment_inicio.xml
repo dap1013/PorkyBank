@@ -6,353 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".ui.home.HomeFragment">
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="- 19,99€"
-            tools:layout_editor_absoluteX="290dp"
-            tools:layout_editor_absoluteY="421dp" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="- 23,95€"
-            tools:layout_editor_absoluteX="289dp"
-            tools:layout_editor_absoluteY="371dp" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="- 56,25€"
-            tools:layout_editor_absoluteX="289dp"
-            tools:layout_editor_absoluteY="321dp" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="+ 5,60€"
-            tools:layout_editor_absoluteX="290dp"
-            tools:layout_editor_absoluteY="271dp" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Ver más"
-            tools:layout_editor_absoluteX="289dp"
-            tools:layout_editor_absoluteY="242dp" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="35dp"
-            android:layout_height="15dp"
-            android:text="17 mar"
-            android:textSize="10sp"
-            tools:layout_editor_absoluteX="88dp"
-            tools:layout_editor_absoluteY="440dp" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="BASIC FIT SPAIN"
-            tools:layout_editor_absoluteX="88dp"
-            tools:layout_editor_absoluteY="421dp" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="35dp"
-            android:layout_height="15dp"
-            android:text="26 feb"
-            android:textSize="10sp"
-            tools:layout_editor_absoluteX="88dp"
-            tools:layout_editor_absoluteY="390dp" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Zara"
-            tools:layout_editor_absoluteX="88dp"
-            tools:layout_editor_absoluteY="371dp" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="35dp"
-            android:layout_height="15dp"
-            android:text="02 mar"
-            android:textSize="10sp"
-            tools:layout_editor_absoluteX="88dp"
-            tools:layout_editor_absoluteY="340dp" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Carrefour S.L"
-            tools:layout_editor_absoluteX="88dp"
-            tools:layout_editor_absoluteY="321dp" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="35dp"
-            android:layout_height="15dp"
-            android:text="04 mar"
-            android:textSize="10sp"
-            tools:layout_editor_absoluteX="88dp"
-            tools:layout_editor_absoluteY="290dp" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Bizum recibido"
-            tools:layout_editor_absoluteX="88dp"
-            tools:layout_editor_absoluteY="271dp" />
-
-        <ImageView
-            android:id="@+id/imageView14"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:rotation="180"
-            android:src="@drawable/flecha"
-            tools:layout_editor_absoluteX="51dp"
-            tools:layout_editor_absoluteY="421dp" />
-
-        <ImageView
-            android:id="@+id/imageView14"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginStart="51dp"
-            android:layout_marginEnd="330dp"
-            android:rotation="360"
-            android:src="@drawable/flecha"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="271dp" />
-
-        <ImageView
-            android:id="@+id/imageView14"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:rotation="180"
-            android:src="@drawable/flecha"
-            tools:layout_editor_absoluteX="51dp"
-            tools:layout_editor_absoluteY="371dp" />
-
-        <ImageView
-            android:id="@+id/imageView14"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:rotation="180"
-            android:src="@drawable/flecha"
-            tools:layout_editor_absoluteX="51dp"
-            tools:layout_editor_absoluteY="321dp" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tus últimos movimientos"
-            tools:layout_editor_absoluteX="34dp"
-            tools:layout_editor_absoluteY="242dp" />
-
-        <TextView
-            android:id="@+id/txt_porkybank"
-            android:layout_width="130dp"
-            android:layout_height="49dp"
-            android:layout_marginTop="184dp"
-            android:text="265,93€"
-            android:textColor="#716E6E"
-            android:textSize="30sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.487"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="TextSizeCheck" />
-
-        <TextView
-            android:id="@+id/txt_resumen_cuenta"
-            android:layout_width="35dp"
-            android:layout_height="23dp"
-            android:text=" Inicio"
-            android:textColor="#000000"
-            android:textSize="12sp"
-            android:visibility="visible"
-            tools:layout_editor_absoluteX="188dp"
-            tools:layout_editor_absoluteY="696dp" />
-
-        <ImageView
-            android:id="@+id/imgVw_notificaciones"
-            android:layout_width="55dp"
-            android:layout_height="38dp"
-            android:layout_marginTop="16dp"
-            android:src="@drawable/ic_sobre_black"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.811"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
-            android:id="@+id/imgVw_config"
-            android:layout_width="30dp"
-            android:layout_height="38dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:src="@drawable/ic_config_black"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/txt_buenasTardes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Buenas tardes, Carlos"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.097"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.038" />
-
-        <ImageView
-            android:id="@+id/imageView12"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:src="@drawable/house"
-            android:visibility="visible"
-            tools:layout_editor_absoluteX="188dp"
-            tools:layout_editor_absoluteY="661dp" />
-
-        <ImageView
-            android:id="@+id/pay"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:src="@drawable/pay"
-            tools:layout_editor_absoluteX="34dp"
-            tools:layout_editor_absoluteY="662dp" />
-
-        <TextView
-            android:id="@+id/txt_pagos"
-            android:layout_width="35dp"
-            android:layout_height="23dp"
-            android:text="Pagos"
-            android:textColor="#000000"
-            android:textSize="12sp"
-            tools:layout_editor_absoluteX="34dp"
-            tools:layout_editor_absoluteY="696dp" />
-
-        <ImageView
-            android:id="@+id/imageView19"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_marginEnd="40dp"
-            android:src="@drawable/productos"
-            app:layout_constraintEnd_toEndOf="parent"
-            tools:layout_editor_absoluteY="661dp" />
-
-        <TextView
-            android:id="@+id/txt_productos"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="31dp"
-            android:text="Productos"
-            android:textColor="#000000"
-            android:textSize="12sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView19" />
-
-        <ImageView
-            android:id="@+id/imageView11"
-            android:layout_width="185dp"
-            android:layout_height="112dp"
-            android:src="@drawable/tarjeta_visa_negra"
-            tools:layout_editor_absoluteX="43dp"
-            tools:layout_editor_absoluteY="522dp" />
-
-        <ImageView
-            android:id="@+id/imageView20"
-            android:layout_width="185dp"
-            android:layout_height="112dp"
-            android:src="@drawable/tarjetas_visa_universal"
-            tools:layout_editor_absoluteX="280dp"
-            tools:layout_editor_absoluteY="522dp" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="86dp"
-            android:layout_height="76dp"
-            android:contentDescription="@string/logo_app"
-            android:src="@drawable/ic_logo_porkybank"
-            tools:layout_editor_absoluteX="34dp"
-            tools:layout_editor_absoluteY="157dp" />
-
-        <TextView
-            android:id="@+id/txt_resumen_cuenta"
-            android:layout_width="160dp"
-            android:layout_height="23dp"
-            android:text="Cuenta PorkyBank *7439"
-            android:textSize="12sp"
-            tools:layout_editor_absoluteX="137dp"
-            tools:layout_editor_absoluteY="161dp" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <TextView
-        android:id="@+id/txt_resumen_cuenta"
-        android:layout_width="35dp"
-        android:layout_height="23dp"
-        android:text=" Inicio"
-        android:textColor="#000000"
-        android:textSize="12sp"
-        android:visibility="visible"
-        tools:layout_editor_absoluteX="188dp"
-        tools:layout_editor_absoluteY="696dp" />
-
-    <TextView
-        android:id="@+id/txt_resumen_cuenta"
-        android:layout_width="160dp"
-        android:layout_height="23dp"
-        android:text="Resumen de la cuenta"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.135"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.165" />
-
-    <ImageView
-        android:id="@+id/imgVw_notificaciones"
-        android:layout_width="55dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="16dp"
-        android:src="@drawable/ic_sobre_black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.811"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imgVw_config"
-        android:layout_width="30dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:src="@drawable/ic_config_black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/txt_buenasTardes"
@@ -368,58 +21,356 @@
         app:layout_constraintVertical_bias="0.038" />
 
     <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:src="@drawable/house"
-        android:visibility="visible"
-        tools:layout_editor_absoluteX="188dp"
-        tools:layout_editor_absoluteY="661dp" />
+        android:id="@+id/imgVw_notificaciones"
+        android:layout_width="55dp"
+        android:layout_height="38dp"
+        android:src="@drawable/ic_sobre_black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <ImageView
+        android:id="@+id/imgVw_config"
+        android:layout_width="30dp"
+        android:layout_height="38dp"
+        android:src="@drawable/ic_config_black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="160dp"
+        android:layout_height="23dp"
+        android:text="Resumen de la cuenta"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091" />
+
+
+    <FrameLayout
+        android:layout_width="330dp"
+        android:layout_height="300dp"
+        android:background="@drawable/custom_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.248">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="86dp"
+            android:layout_height="76dp"
+            android:layout_gravity="top|start"
+            android:contentDescription="@string/logo_app"
+            android:src="@drawable/ic_logo_porkybank"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="157dp" />
+
+        <TextView
+            android:id="@+id/txt_porkybank"
+            android:layout_width="130dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="30dp"
+            android:text="265,93€"
+            android:textColor="#716E6E"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.487"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/txt_resumen_cuenta"
+            android:layout_width="160dp"
+            android:layout_height="23dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="10dp"
+            android:text="Cuenta PorkyBank *7439"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="137dp"
+            tools:layout_editor_absoluteY="161dp" />
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginTop="80dp"
+            android:text="Tus últimos movimientos"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="242dp" />
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|top"
+            android:layout_marginTop="80dp"
+            android:text="Ver más"
+            tools:layout_editor_absoluteX="289dp"
+            tools:layout_editor_absoluteY="242dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp">
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="10dp"
+                android:contentDescription="@string/flecha"
+                android:src="@drawable/flecha"
+                tools:layout_editor_absoluteX="51dp"
+                tools:layout_editor_absoluteY="421dp" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:layout_marginStart="50dp"
+                android:text="Bizum recibido"
+                tools:layout_editor_absoluteX="88dp"
+                tools:layout_editor_absoluteY="271dp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="35dp"
+                android:layout_height="15dp"
+                android:layout_gravity="bottom|start"
+                android:layout_marginStart="50dp"
+                android:text="04 mar"
+                android:textSize="10sp"
+                tools:layout_editor_absoluteX="88dp"
+                tools:layout_editor_absoluteY="290dp" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|end"
+                android:layout_marginEnd="10dp"
+                android:text="+ 5,60€"
+                tools:layout_editor_absoluteX="290dp"
+                tools:layout_editor_absoluteY="271dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp">
+
+            <ImageView
+                android:id="@+id/imageView66"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="10dp"
+                android:contentDescription="@string/flecha"
+                android:rotation="180"
+                android:src="@drawable/flecha"
+                tools:layout_editor_absoluteX="51dp"
+                tools:layout_editor_absoluteY="421dp" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:layout_marginStart="50dp"
+                android:text="Carrefour S.L"
+                tools:layout_editor_absoluteX="88dp"
+                tools:layout_editor_absoluteY="271dp" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="35dp"
+                android:layout_height="15dp"
+                android:layout_gravity="bottom|start"
+                android:layout_marginStart="50dp"
+                android:text="02 mar"
+                android:textSize="10sp"
+                tools:layout_editor_absoluteX="88dp"
+                tools:layout_editor_absoluteY="290dp" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|end"
+                android:layout_marginEnd="10dp"
+                android:text="- 56,25€"
+                tools:layout_editor_absoluteX="290dp"
+                tools:layout_editor_absoluteY="271dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="190dp">
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="10dp"
+                android:contentDescription="@string/flecha"
+                android:rotation="180"
+                android:src="@drawable/flecha"
+                tools:layout_editor_absoluteX="51dp"
+                tools:layout_editor_absoluteY="421dp" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:layout_marginStart="50dp"
+                android:text="Zara"
+                tools:layout_editor_absoluteX="88dp"
+                tools:layout_editor_absoluteY="271dp" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="35dp"
+                android:layout_height="15dp"
+                android:layout_gravity="bottom|start"
+                android:layout_marginStart="50dp"
+                android:text="26 feb"
+                android:textSize="10sp"
+                tools:layout_editor_absoluteX="88dp"
+                tools:layout_editor_absoluteY="290dp" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|end"
+                android:layout_marginEnd="10dp"
+                android:text="- 23,95€"
+                tools:layout_editor_absoluteX="290dp"
+                tools:layout_editor_absoluteY="271dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp">
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="10dp"
+                android:contentDescription="@string/flecha"
+                android:rotation="180"
+                android:src="@drawable/flecha"
+                tools:layout_editor_absoluteX="51dp"
+                tools:layout_editor_absoluteY="421dp" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:layout_marginStart="50dp"
+                android:text="BASIC FIT SPAIN"
+                tools:layout_editor_absoluteX="88dp"
+                tools:layout_editor_absoluteY="271dp" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="35dp"
+                android:layout_height="15dp"
+                android:layout_gravity="bottom|start"
+                android:layout_marginStart="50dp"
+                android:text="17 mar"
+                android:textSize="10sp"
+                tools:layout_editor_absoluteX="88dp"
+                tools:layout_editor_absoluteY="290dp" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|end"
+                android:layout_marginEnd="10dp"
+                android:text="- 19,99€"
+                tools:layout_editor_absoluteX="290dp"
+                tools:layout_editor_absoluteY="271dp" />
+        </FrameLayout>
+    </FrameLayout>
+
 
     <TextView
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tarjetas (desliza para seleccionar)"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="489dp" />
-
-    <ImageView
-        android:id="@+id/pay"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:src="@drawable/pay"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="662dp" />
-
-    <TextView
-        android:id="@+id/txt_pagos"
-        android:layout_width="35dp"
-        android:layout_height="23dp"
-        android:text="Pagos"
-        android:textColor="#000000"
-        android:textSize="12sp"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="696dp" />
-
-    <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_marginEnd="40dp"
-        android:src="@drawable/productos"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="661dp" />
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.686" />
 
-    <TextView
-        android:id="@+id/txt_productos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="31dp"
-        android:text="Productos"
-        android:textColor="#000000"
-        android:textSize="12sp"
+    <HorizontalScrollView
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView19" />
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.843">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="185dp"
+                android:layout_height="112dp"
+                android:src="@drawable/tarjeta_visa_negra"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="522dp"
+                android:contentDescription="@string/tarjeta_dato2" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="185dp"
+                android:layout_height="112dp"
+                android:src="@drawable/tarjetas_visa_universal"
+                tools:layout_editor_absoluteX="280dp"
+                tools:layout_editor_absoluteY="522dp"
+                android:contentDescription="@string/tarjeta_dato2" />
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

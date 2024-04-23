@@ -11,9 +11,10 @@
         android:id="@+id/imageView7"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:rotationY="180"
         android:clickable="true"
+        android:contentDescription="@string/flecha"
         android:onClick="volver"
+        android:rotationY="180"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"
@@ -21,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.041"
         app:srcCompat="@drawable/flecha"
-        android:contentDescription="@string/flecha" />
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/checkedTextView"

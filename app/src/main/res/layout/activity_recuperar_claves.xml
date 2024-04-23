@@ -76,6 +76,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center|start"
             android:layout_marginStart="80dp"
+            android:clickable="true"
+            android:onClick="clickDni"
             android:textSize="25sp"
             android:textColor="@color/black"
             android:text="@string/recupera_claves_DNI" />
@@ -85,6 +87,8 @@
             android:layout_width="80dp"
             android:layout_height="50dp"
             android:layout_gravity="center|start"
+            android:clickable="true"
+            android:onClick="clickDni"
             app:srcCompat="@drawable/tarjeta_identificacion"
             android:contentDescription="@string/recupera_claves_img_desc_dni" />
 
@@ -94,6 +98,8 @@
             android:layout_height="30dp"
             android:layout_gravity="center|end"
             android:layout_marginEnd="10dp"
+            android:clickable="true"
+            android:onClick="clickDni"
             android:contentDescription="@string/flecha"
             app:srcCompat="@drawable/flecha"/>
     </FrameLayout>
@@ -116,6 +122,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|start"
+            android:clickable="true"
+            android:onClick="clickEmail"
             android:layout_marginStart="80dp"
             android:text="@string/recupera_claves_Email"
             android:textColor="@color/black"
@@ -125,6 +133,8 @@
             android:id="@+id/imageView4"
             android:layout_width="80dp"
             android:layout_height="50dp"
+            android:clickable="true"
+            android:onClick="clickEmail"
             android:layout_gravity="center|start"
             android:contentDescription="@string/recupera_claves_img_desc_email"
             app:srcCompat="@drawable/sobre" />
@@ -133,6 +143,8 @@
             android:id="@+id/imageView5"
             android:layout_width="40dp"
             android:layout_height="30dp"
+            android:clickable="true"
+            android:onClick="clickEmail"
             android:layout_gravity="center|end"
             android:layout_marginEnd="10dp"
             android:contentDescription="@string/flecha"

@@ -37,6 +37,6 @@ public class recuperarClaves extends AppCompatActivity {
     }
 
     public void clickEquis(View view){
-
+        finish();
     }
 }

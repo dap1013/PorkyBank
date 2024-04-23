@@ -70,10 +70,5 @@
     <string name="tarjeta_dato5">Permite fraccionar compras</string>
     <string name="tarjeta_dato6">Sacar dinero a débito sin comisiones</string>
     <string name="productos_main_dato1">Catálogo de productos</string>
-    <string-array name="documents_types">
-        <item>Tipo de documento</item>
-        <item>DNI</item>
-        <item>NIE</item>
-        <item>TIE</item>
-    </string-array>
+
 </resources>

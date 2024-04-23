@@ -10,28 +10,29 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.porkybank.databinding.FragmentHomeBinding;
+//import com.example.porkybank.databinding.FragmentHomeBinding;
 
 public class HomeFragment extends Fragment {
 
-    private FragmentHomeBinding binding;
+    //private FragmentHomeBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         HomeViewModel homeViewModel =
                 new ViewModelProvider(this).get(HomeViewModel.class);
 
-        binding = FragmentHomeBinding.inflate(inflater, container, false);
-        View root = binding.getRoot();
+        //binding = FragmentHomeBinding.inflate(inflater, container, false);
+        //View root = binding.getRoot();
 
-        final TextView textView = binding.textHome;
-        homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
-        return root;
+        //final TextView textView = binding.textHome;
+        //homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        //return root;
+        return null;
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        binding = null;
+        //binding = null;
     }
 }

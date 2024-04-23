@@ -5,87 +5,23 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/txt_productos"
-        tools:layout_editor_absoluteY="699dp"
+        android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="Productos"
+
+        android:text="Buzón:"
         android:textColor="#000000"
-        android:textSize="12sp"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.921"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/txt_pagos"
-        android:layout_width="35dp"
-        android:layout_height="23dp"
-        android:text="Pagos"
-        android:textColor="#000000"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintHorizontal_bias="0.106"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.984" />
-
-    <TextView
-        android:id="@+id/txt_resumen_cuenta"
-        android:layout_width="35dp"
-        android:layout_height="23dp"
-        android:layout_marginStart="118dp"
-        android:text=" Inicio"
-        android:textColor="#000000"
-        android:textSize="12sp"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.271"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.984" />
-
-    <ImageView
-        android:id="@+id/pay"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="662dp"
-        android:contentDescription="TODO"
-        android:src="@drawable/pay"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="661dp"
-        android:layout_marginEnd="40dp"
-        android:contentDescription="productos_imagen"
-        android:src="@drawable/productos"
-        app:layout_constraintBottom_toTopOf="@+id/txt_productos"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.105" />
-
-    <ImageView
-        android:id="@+id/imageView22"
-        android:layout_width="35dp"
-        android:layout_height="34dp"
-        android:src="@drawable/house"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.951" />
+        app:layout_constraintVertical_bias="0.131" />
 
     <TextView
         android:id="@+id/txt_porkybank"
-        tools:ignore="TextSizeCheck"
         android:layout_width="170dp"
         android:layout_height="45dp"
         android:layout_marginStart="120dp"
@@ -102,16 +38,16 @@
 
     <ImageView
         android:id="@+id/imageView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:rotation="180"
         android:src="@drawable/flecha"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintHorizontal_bias="0.089"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.042" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -125,26 +61,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView27"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Buzón:"
-        android:textColor="#000000"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.106"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.131" />
 
     <ImageView
         android:id="@+id/imageView27"
         android:layout_width="325dp"
         android:layout_height="616dp"
-        app:layout_constraintBottom_toBottomOf="@+id/txt_resumen_cuenta"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
