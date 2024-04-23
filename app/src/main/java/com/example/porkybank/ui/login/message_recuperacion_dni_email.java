@@ -20,7 +20,7 @@ public class message_recuperacion_dni_email extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_message_recuperacion_dni_email);
         setTextView();
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.recuperar_dni_emain_mensaje), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;

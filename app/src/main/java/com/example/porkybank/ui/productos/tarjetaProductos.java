@@ -1,6 +1,5 @@
-package com.example.porkybank.ui.login;
+package com.example.porkybank.ui.productos;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -12,31 +11,20 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.porkybank.R;
 
-public class recuperarClaves extends AppCompatActivity {
+public class tarjetaProductos extends AppCompatActivity {
 
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_recuperar_claves);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.recupera_claves), (v, insets) -> {
+        setContentView(R.layout.tarjeta_productos);
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.tarjeta_productos), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
     }
 
-    public void clickDni(View view){
-        Intent siguiente = new Intent(this, recuperarDNI.class);
-        startActivity(siguiente);
-    }
-
-    public void clickEmail(View view){
-        Intent siguiente = new Intent(this, recuperarEmail.class);
-        startActivity(siguiente);
-    }
-
-    public void clickEquis(View view){
+    public void voler(View view){
 
     }
 }

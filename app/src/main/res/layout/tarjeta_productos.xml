@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tarjeta_productos"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -46,13 +47,16 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="7dp"
         android:rotationY="180"
+        android:clickable="true"
+        android:onClick="voler"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.082"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.038"
-        app:srcCompat="@drawable/flecha" />
+        app:srcCompat="@drawable/flecha"
+        android:contentDescription="@string/fecha_atras" />
 
     <TextView
         android:id="@+id/textView2"
