@@ -33,20 +33,36 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(binding.navView, navController);
     }
 
-    seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
-        public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-            // El valor de la SeekBar ha cambiado
-            // 'progress' contiene el nuevo valor
-        }
 
-        public void onStartTrackingTouch(SeekBar seekBar) {
-            // Se está tocando la SeekBar
-        }
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_main);
 
-        public void onStopTrackingTouch(SeekBar seekBar) {
-            // Se ha dejado de tocar la SeekBar
+            textViewProgress = findViewById(R.id.textViewProgress);
+            seekBar = findViewById(R.id.seekBar);
+
+            seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+
+                public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+                    // Actualizar el texto con el valor de la SeekBar
+                    int value = 2000 + progress * (100000 - 2000) / seekBar.getMax();
+                    textViewProgress.setText(String.valueOf(value));
+                }
+
+
+                public void onStartTrackingTouch(SeekBar seekBar) {
+                    // No es necesario hacer nada aquí
+                }
+
+
+                public void onStopTrackingTouch(SeekBar seekBar) {
+                    // No es necesario hacer nada aquí
+                }
+            });
         }
-    };
+    }
+
 
 
 }
