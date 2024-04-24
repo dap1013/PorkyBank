@@ -74,15 +74,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.181" />
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="337dp"
-        android:layout_height="423dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/fotoon2"
-        tools:layout_editor_absoluteY="166dp" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -90,14 +81,152 @@
         android:layout_marginStart="149dp"
         android:layout_marginTop="11dp"
         android:layout_marginEnd="150dp"
-        android:text="@string/solicitar"
         android:backgroundTint="@color/button_color"
+        android:text="@string/solicitar"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.879" />
+        app:layout_constraintVertical_bias="0.916" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="332dp"
+        android:layout_height="460dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_border"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="140dp"
+            android:layout_height="48dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="27dp">
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9.0000,00€"
+                tools:layout_editor_absoluteX="26dp"
+                tools:layout_editor_absoluteY="11dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="189dp"
+            android:layout_height="16dp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mínimo 2000,00€"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="163dp" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿En cuántos meses desea devolverlo?"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="212dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="58dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/fotinaaa33"
+            tools:layout_editor_absoluteY="241dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="232dp"
+            android:layout_height="113dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/custom_border"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8"
+            tools:ignore="ExtraText">
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="750,00€"
+                tools:layout_editor_absoluteX="77dp"
+                tools:layout_editor_absoluteY="-2dp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cuota mensual"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="27dp" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0,00%"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="42dp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12,15%"
+                tools:layout_editor_absoluteX="161dp"
+                tools:layout_editor_absoluteY="42dp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TIN"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="69dp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TAE"
+                tools:layout_editor_absoluteX="154dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:max="100"
+                android:progress="0"/>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

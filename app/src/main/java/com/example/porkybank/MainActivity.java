@@ -33,4 +33,20 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(binding.navView, navController);
     }
 
+    seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+        public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+            // El valor de la SeekBar ha cambiado
+            // 'progress' contiene el nuevo valor
+        }
+
+        public void onStartTrackingTouch(SeekBar seekBar) {
+            // Se está tocando la SeekBar
+        }
+
+        public void onStopTrackingTouch(SeekBar seekBar) {
+            // Se ha dejado de tocar la SeekBar
+        }
+    };
+
+
 }
